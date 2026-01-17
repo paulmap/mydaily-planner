@@ -22,12 +22,15 @@ jobs:
     - name: Setup Flutter
       uses: subosito/flutter-action@v2
       with:
-        flutter-version: '3.16.0'
+        flutter-version: '3.13.9'
         channel: 'stable'
         cache: true
 
     - name: Clean dependencies
       run: flutter clean
+
+    - name: Clean Gradle
+      run: cd android && ./gradlew clean && cd ..
 
     - name: Get dependencies
       run: flutter pub get
