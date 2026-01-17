@@ -23,7 +23,7 @@ jobs:
       with:
         flutter-version: '3.13.9'
         channel: 'stable'
-        cache: true
+        cache: 'true'
 
     - name: Clean dependencies
       run: flutter clean
@@ -32,7 +32,7 @@ jobs:
       run: cd android && ./gradlew clean && cd ..
 
     - name: Get dependencies
-      run: flutter pub get
+      run: flutter pub get --no-warn-on-embedding-mismatch
 
     - name: Build APK (Universal)
       run: flutter build apk --release
