@@ -20,10 +20,10 @@ Choose the APK that matches your device:
 
 | APK File | Size | Architecture | Devices |
 |---------|------|--------------|----------|
-| [app-release.apk](https://github.com/yourusername/mydaily-planner/releases/latest/download/app-release.apk) | 54.9 MB | Universal | All devices |
-| [app-arm64-v8a-release.apk](https://github.com/yourusername/mydaily-planner/releases/latest/download/app-arm64-v8a-release.apk) | 22.2 MB | ARM64 | Modern devices |
-| [app-armeabi-v7a-release.apk](https://github.com/yourusername/mydaily-planner/releases/latest/download/app-armeabi-v7a-release.apk) | 19.8 MB | ARM32 | Older devices |
-| [app-x86_64-release.apk](https://github.com/yourusername/mydaily-planner/releases/latest/download/app-x86_64-release.apk) | 23.6 MB | x64 | Emulators/tablets |
+| [app-release.apk](https://github.com/paulmap/mydaily-planner/releases/latest/download/app-release.apk) | 54.9 MB | Universal | All devices |
+| [app-arm64-v8a-release.apk](https://github.com/paulmap/mydaily-planner/releases/latest/download/app-arm64-v8a-release.apk) | 22.2 MB | ARM64 | Modern devices |
+| [app-armeabi-v7a-release.apk](https://github.com/paulmap/mydaily-planner/releases/latest/download/app-armeabi-v7a-release.apk) | 19.8 MB | ARM32 | Older devices |
+| [app-x86_64-release.apk](https://github.com/paulmap/mydaily-planner/releases/latest/download/app-x86_64-release.apk) | 23.6 MB | x64 | Emulators/tablets |
 
 ### Installation Instructions
 
@@ -34,8 +34,8 @@ Choose the APK that matches your device:
 
 ### Web Version
 
-Access the app directly in your browser:  
-🌐 [https://yourusername.github.io/mydaily-planner](https://yourusername.github.io/mydaily-planner)
+Access to app directly in your browser:  
+🌐 [https://paulmap.github.io/mydaily-planner](https://paulmap.github.io/mydaily-planner)
 
 ## 📱 Screenshots
 
@@ -70,7 +70,7 @@ Access the app directly in your browser:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/mydaily-planner.git
+git clone https://github.com/paulmap/mydaily-planner.git
 cd mydaily-planner
 
 # Install dependencies
@@ -107,9 +107,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or feedback:
 
-- 📧 Email: your.email@example.com
-- 🐛 Report Issues: [GitHub Issues](https://github.com/yourusername/mydaily-planner/issues)
-- 💬 Discussion: [GitHub Discussions](https://github.com/yourusername/mydaily-planner/discussions)
+- 📧 Email: paul.maposa@gmail.com
+- 🐛 Report Issues: [GitHub Issues](https://github.com/paulmap/mydaily-planner/issues)
+- 💬 Discussion: [GitHub Discussions](https://github.com/paulmap/mydaily-planner/discussions)
 
 ## 🌟 Acknowledgments
 
