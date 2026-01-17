@@ -13,18 +13,27 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    - name: Setup Java
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'temurin'
+        java-version: '17'
+
     - name: Setup Flutter
       uses: subosito/flutter-action@v2
       with:
-        flutter-version: '3.19.6'
+        flutter-version: '3.16.0'
         channel: 'stable'
         cache: true
 
-    - name: Install dependencies
+    - name: Clean dependencies
+      run: flutter clean
+
+    - name: Get dependencies
       run: flutter pub get
 
     - name: Check Flutter
-      run: flutter doctor
+      run: flutter doctor -v
 
     - name: Build Web
       run: flutter build web --release --base-url "/mydaily-planner/" --web-hostname "https://paulmap.github.io"
