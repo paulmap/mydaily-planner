@@ -27,7 +27,7 @@ jobs:
       run: flutter doctor
 
     - name: Build Web
-      run: flutter build web --release --base-url "/mydaily-planner/" --web-hostname "paulmap.github.io"
+      run: flutter build web --release --base-url "/mydaily-planner/" --web-hostname "https://paulmap.github.io/mydaily-planner/"
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
